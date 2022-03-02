@@ -1,0 +1,584 @@
+* {
+    text-decoration: none;
+}
+
+html, body {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 240, 242);
+}
+
+.container {
+    display: block;
+    max-width: 95%;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: auto;
+    margin: 10px auto;
+}
+
+/* Home */
+
+nav {
+    display: flex;
+    background-color: rgb(133, 199, 199);
+    justify-content: space-around;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.smpgpmlogo {
+    display: flex;
+    max-width: 65px;
+    width: 100%;    
+    height: auto;
+    margin-right: 5px;
+}
+
+h1.jurnalistik {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.welcometxt {
+    font-size: 1.2vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-around
+}
+
+.programchar {
+    color: rgb(224, 99, 32);
+    display: flex;
+    font-size: 18px;
+}
+
+
+.ekskul {
+    color: rgb(224, 99, 32);
+    display: flex;
+    font-size: 18px;
+    margin-left: 630px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    display: flex;
+    margin-top: 90px;
+    font-size: 18px;
+    color: black;
+}
+
+ul li a:hover {
+    color: rgb(75, 73, 73);
+    text-decoration: underline;
+}
+
+.pramukaimg {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    margin-right: 10px;
+    margin-left: 160px;
+    border-radius: 10px;
+}
+
+ul li a.pramukaimgg {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.robotikimg {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+ul li a.robotikimgg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+/* Pramuka Page */
+
+.pramukapicture, .pramukapicture2, .pramukapicture3, .pramukapicture4, .pramukapicture5, .pramukapicture6 {
+    max-width: 225px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 5px ;
+}
+
+.pramukapicture {
+    flex-direction: column;
+    margin: 20px;
+}
+
+.desc {
+    display: flex;
+}
+
+p.desc1 {
+    flex-direction: column;
+    margin-left: 270px;
+    margin-top: -140px;
+}
+
+img.pramukapicture2 {
+    margin-left: auto;
+}
+
+img.pramukapicture5 {
+    margin-left: auto;
+}
+
+img.pramukapicture6 {
+    margin-left: auto;
+}
+
+p.desc2 {
+    flex-direction: column;
+    margin-top: -120px;
+    margin-left: 20px;
+    padding-right: 260px;
+    box-sizing: border-box;
+}
+
+.pramukapicture3 {
+    flex-direction: column;
+    max-width: 210px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    margin-top: 80px;
+}
+
+.pramukapicture4 {
+    flex-direction: column;
+    margin: 20px;
+}
+
+.pramukapicture5 {
+    flex-direction: column;
+    max-width: 210px;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-top: -520px;
+}
+
+.pramukapicture6 {
+    flex-direction: column;
+    margin: 20px;
+}
+
+p.desc3 {
+    margin-left: 250px;
+    padding-right: 250px;
+    margin-top: -400px;
+}
+
+a.btnhome {
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 4vw;
+    margin-top: 5.3vw;
+    margin-left: 55vw;
+    flex-direction: column;
+    font-size: 1.4vw;
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a.btnhome:hover {
+    color: rgb(85, 82, 82);
+    text-decoration: underline;
+}
+
+ /* Robotik Page */
+
+ img.robotikpicture {
+     display: flex;
+     flex-direction: column;
+     max-width: 18.5vw;
+     width: 100%;
+     height: auto;
+     margin-top: 3vw;
+     border-radius: 5px;
+ }
+
+ .descrobotik {
+     font-size: 1.099vw;
+     display: flex;
+     flex-direction: column;
+     margin-left: 20vw;
+     margin-top: -7.5vw;
+ }
+
+
+/* Responsive Website Code */
+
+/* Special Ipad Air */
+
+@media screen and (max-width:820px) {
+    .programchar {
+        flex-direction: column;
+    }
+    
+    .ekskul {
+        margin-left: 0;
+    }   
+
+    img.pramukapicture2 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture5 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture6 {
+        margin-left: auto;
+    }
+    
+    p.desc3 {
+        margin-top: -520px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .pramukaimg {
+        max-width: 200px;
+    }
+
+    .robotikimg {
+        max-width: 200px;
+    }
+    
+    ul li a.pramukaimgg {
+        margin-top: 110px;
+    }
+
+    ul li a.robotikimgg {
+        margin-left:240px ;
+        margin-top: -90px;
+    }
+
+    .programchar {
+        flex-direction: column;
+    }
+
+    .ekskul {
+        margin-left: 0;
+    }
+
+    img.pramukapicture2 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture5 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture6 {
+        margin-left: auto;
+    }
+
+    p.desc3 {
+        margin-top: -500px;
+    }
+}
+
+
+/* Special 600px */
+
+@media screen and (max-width:600px) {
+    h1.special, a.kanan{
+        margin-left: -350px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+
+    h1.jurnalistik {
+        font-size: 18px;
+    }
+    .pramukaimg {
+        max-width: 170px;
+        margin-top: -70px;
+        margin-left: 165px;
+    }
+
+    .robotikimg {
+        max-width: 170px;
+    }
+
+    ul li a.pramukaimgg {
+        margin-top: 70px;
+    }
+
+    ul li a.robotikimgg {
+        margin-top: -75px;
+    }
+
+    .welcometxt {
+        font-size: 12.5px;
+    }
+
+    .programchar, .ekskul {
+        font-size: 16px;
+    }
+
+    h1.special {
+        margin-left: -350px;
+    }
+
+    a.kanan {
+        margin-left: -350px;
+    }
+
+    p.desc1 {
+        margin-top: -190px;
+        font-size: 12.5px;
+        padding-right: 5px;
+        padding-left: 5px
+    }
+
+    .pramukapicture2 {
+        margin-left: 335px;
+    }
+
+    p.desc2 {
+        font-size: 12.5px;
+        margin-top: -170px;
+    }
+
+    .pramukapicture3, .pramukapicture4, .pramukapicture6, .pramukapicture5 {
+        max-width: 120px;
+    }
+
+    .pramukapicture {
+        display: flex;
+        max-width: 100%;
+        width: 60%;
+        margin: 20px auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img.pramukapicture2 {
+        margin: 20px auto;
+    }
+
+    p.desc2 {
+        display: flex;
+        margin-top: 5px;
+        margin: 10px auto;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    p.desc1 {
+        display: flex;
+        margin-top: -10px;
+        margin: 10px auto;
+        padding:0px 20px;
+        box-sizing: border-box;
+    }
+
+    .pramukapicture3 {
+        max-width: 100%;
+        width: 25%;
+        margin-top: 10vw;
+    }
+
+    .pramukapicture4 {
+        max-width: 100%;
+        width: 25%;
+    }
+
+    img.pramukapicture5 {
+        display: flex;
+        max-width: 100%;
+        width: 25%;
+        margin-top: -65vw;
+        margin-left: 265px;
+    }
+
+    img.pramukapicture6 {
+        max-width: 100%;
+        width: 25%;
+        margin-left: 265px;
+    }
+
+    p.desc3 {
+        max-width: 100%;
+        font-size: 70%;
+        padding-right: 32vw;
+        margin-left: 32vw;
+        margin-top: -60vw;
+    }
+    a.btnhome {
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}
+
+/* Special Iphone SE */
+
+@media screen and (max-width:375px) {
+    .pramukaimg, .robotikimg {
+        max-width: 150px;
+    }
+
+    ul li a.robotikimgg {
+        margin-left: 210px;
+    }
+
+    .programchar, .ekskul {
+        font-size: 14px;
+    }
+
+    .welcometxt {
+        font-size: 11.5px;
+    }
+
+    p.desc3 {
+        margin-left: 130px;
+        font-size: 65%;
+        margin-top: -240px;
+        padding-right: 120px;
+    }
+
+    img.pramukapicture5 {
+        margin-top: -265px;
+    }
+
+    img.pramukapicture6 {
+        margin-top: 25px;
+    }
+
+}
+
+/* Special Galaxy Fold */
+
+@media screen and (max-width:280px) {
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .pramukaimg, .robotikimg {
+        max-width: 120px;
+    }
+
+    .pramukaimg {
+        margin-left: 115px;
+        margin-top: -50px;
+    }
+
+    .robotikimg {
+        margin-left: 0px;
+    }
+
+    ul li a.pramukaimgg {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    ul li a.robotikimgg {
+        font-size: 16px;
+        margin-left: 150px;
+        margin-top: -58px;
+    }
+
+    .programchar, .ekskul {
+        font-size: 12.5px;
+    }
+
+    .programchar {
+        margin-left:-20px;
+    }
+    
+    .welcometxt {
+        font-size: 9.5px;
+    }
+
+    h1.name.kirii {
+        margin-left: -5px;
+    }
+
+    h1.name, a.kanan {
+        margin-left: -355px;
+    }
+
+    p.desc3 {
+        margin: right;
+        margin-left: 35vw;
+        padding-right: 35vw;
+        font-size: 65%;
+        margin-top: -60vw;
+    }
+
+    img.pramukapicture5 {
+        margin-top: -70vw;
+    }
+
+    img.pramukapicture3 {
+        margin-top: 25vw;
+    }
+
+    p.desc3 {
+        margin-top: -75vw;
+        font-size: 55%;
+    }
+}
+
+/* Special Nest Hub Max */
+
+@media screen and (max-width:1280px) {
+    .ekskul {
+        margin-left: 350px;
+    }
+    
+
+    img.pramukapicture2 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture5 {
+        margin-left: auto;
+    }
+
+    img.pramukapicture6 {
+        margin-left: auto;
+    }
+
+    a.btnpramuka {
+        font-size: 25px;
+    }
+}
